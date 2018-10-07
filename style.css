@@ -1,0 +1,58 @@
+
+body {
+    font-family: 'Asar', serif;
+}
+
+header {
+    text-align: center;
+    border: 1px dashed black;
+    padding-bottom: 10px;
+}
+
+#mainTitle {
+    font-family: "Vollkorn SC", serif;
+    font-size: 3em;
+    margin-bottom: 3px;
+}
+
+.authorSpan {
+    font-family: sans-serif;
+    font-size: 0.8em;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+aside {
+    float: left;
+    width: 150px;
+    background-color: #65090a;
+}
+aside>* {
+    margin: 5px;
+    padding: 5px;
+    background-color: white;
+}
+
+
+
+div {
+    border: 1px dashed black; 
+}
+
+#entries {
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.entry {
+    border-style:solid;
+    border-color: blue;
+    padding: 5px 15px;
+}
